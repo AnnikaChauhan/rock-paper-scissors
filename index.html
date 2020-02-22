@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors</title>
+    <script src="https://kit.fontawesome.com/0f382413cd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <h1>Rock, Paper, Scissors</h1>
+    <section class="container">
+        <section id="scoreboard">
+            <h2 id="title">Scoreboard</h2>
+            <h3 id="user">User</h3>
+                <p id="userScoreBoard">0</p>
+            <h3 id="comp">Computer</h3>
+            <p id="compScoreBoard">0</p>
+        </section>
+        <section id="choices">
+            <article>
+                <h3>Make your move:</h3>
+                <button class="playerChoice choice" id="rock" value="0"><i class="fas fa-hand-rock"></i></button>
+                <button class="playerChoice choice" id="paper" value="1"><i class="fas fa-hand-paper"></i></button class="UC">
+                <button class="playerChoice choice" id="scissors" value="2"><i class="fas fa-hand-scissors"></i></button
+                    class="UC">
+            </article>
+            <article>
+                <h3>Computers move:</h3>
+                <button class="compChoice choice" id="rock" value="0" disabled><i class="fas fa-hand-rock"></i></button>
+                <button class="compChoice choice" id="paper" value="1" disabled><i class="fas fa-hand-paper"></i></button class="UC">
+                <button class="compChoice choice" id="scissors" value="2" disabled><i class="fas fa-hand-scissors"></i></button
+                    class="UC">
+            </article>
+        </section>
+        <section id="winnerBox">
+            <h2 id="winnerMessage"></h2>
+        </section>
+        <section>
+            <div>
+                <button id="restart">Restart the Game</button>
+            </div>
+        </section>
+        <footer>
+            <p>Made by Annika Chauhan.</p>
+        </footer>
+    </section>
+</body>
+
+</html>
