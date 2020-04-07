@@ -3,4 +3,6 @@ A repo for the game rock paper scissors - extracted from personal projects repo.
 
 The game is written using html, css and javascript files.
 
+In April 2020, this game was updated to be written in TypeScript to practice TypeScript knowledge. The primary functions all operate as they did just with more declarations about each variable and function.
+
 No process required or any installations to make to set up the game - just open the repo and use the read me. Access to the live version is available [here](https://annikachauhan.github.io/rock-paper-scissors/)
